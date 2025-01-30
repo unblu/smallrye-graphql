@@ -8,7 +8,7 @@ Add this to your pom.xml:
 ```xml
 <plugin>
     <artifactId>smallrye-graphql-maven-plugin</artifactId>
-    <groupId>io.smallrye</groupId>
+    <groupId>patched.unblu.io.smallrye</groupId>
     <executions>
         <execution>
             <goals>

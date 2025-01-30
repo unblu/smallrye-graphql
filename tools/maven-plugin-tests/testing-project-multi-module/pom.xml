@@ -23,7 +23,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>io.smallrye</groupId>
+            <groupId>patched.unblu.io.smallrye</groupId>
             <artifactId>smallrye-graphql</artifactId>
             <version>${plugin.version}</version>
         </dependency>
@@ -33,7 +33,7 @@
         <pluginManagement>
             <plugins>
                 <plugin>
-                    <groupId>io.smallrye</groupId>
+                    <groupId>patched.unblu.io.smallrye</groupId>
                     <artifactId>smallrye-graphql-maven-plugin</artifactId>
                     <version>${plugin.version}</version>
                 </plugin>

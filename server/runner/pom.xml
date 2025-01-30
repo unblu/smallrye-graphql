@@ -3,9 +3,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>io.smallrye</groupId>
+        <groupId>patched.unblu.io.smallrye</groupId>
         <artifactId>smallrye-graphql-server-parent</artifactId>
-        <version>2.12.2-SNAPSHOT</version>
+        <version>2.12.2-unblu-2</version>
     </parent>
 
     <artifactId>smallrye-graphql-runner</artifactId>
@@ -28,7 +28,7 @@
     <dependencies>
         <!-- The implementation (We just use CDI and Common for now, Servlet are being unpacked)-->
         <dependency>
-            <groupId>io.smallrye</groupId>
+            <groupId>patched.unblu.io.smallrye</groupId>
             <artifactId>smallrye-graphql-cdi</artifactId>
         </dependency>
         <dependency>
@@ -105,7 +105,7 @@
                                     <outputDirectory>${project.build.directory}</outputDirectory>
                                 </artifactItem>
                                 <artifactItem>
-                                    <groupId>io.smallrye</groupId>
+                                    <groupId>patched.unblu.io.smallrye</groupId>
                                     <artifactId>smallrye-graphql-servlet</artifactId>
                                     <type>jar</type>
                                     <overWrite>true</overWrite>

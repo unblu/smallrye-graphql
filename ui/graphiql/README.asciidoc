@@ -11,7 +11,7 @@ To include it in your project (replace xyz with the latest version):
 [source,xml]
 ----
     <dependency>
-        <groupId>io.smallrye</groupId>
+        <groupId>patched.unblu.io.smallrye</groupId>
         <artifactId>smallrye-graphql-ui-graphiql</artifactId>
         <version>xyz</version>
         <scope>runtime</scope>
